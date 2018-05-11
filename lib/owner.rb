@@ -7,7 +7,7 @@ class Owner
     @species = species
     @@pets = {fishes: [], cats: [], dogs: []}
     @@owners << self
-    
+
   end
   def self.all
     @@owners
@@ -18,7 +18,5 @@ class Owner
   def self.reset_all
     @@owners.clear
   end
-  def species(species)
-    species
-  end
+
 end
