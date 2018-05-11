@@ -8,7 +8,7 @@ class Owner
     @@owner << self
   end
   def self.all
-    @@pets
+    @@owners
   end
   def self.count
     self.all.count
