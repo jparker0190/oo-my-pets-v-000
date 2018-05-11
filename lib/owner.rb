@@ -36,7 +36,7 @@ class Owner
     cat = Cat.new(buy)
     pets[:cats] << cat
   end
-  def walk_dogs(walk)
+  def walk_dogs
     Dog.mood(mood = "happy")
   end
 end
