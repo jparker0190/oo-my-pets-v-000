@@ -18,7 +18,7 @@ class Owner
   def self.reset_all
     @@owners.clear
   end
-  def say_species(species)
+  def say_species
     puts "I am a #{species}"
   end
 end
