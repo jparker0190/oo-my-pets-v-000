@@ -5,7 +5,7 @@ class Owner
   @@pets = {}
   def initialize(species)
     @species = species
-    @@pets = {fishes: [], cats: [], dogs: []}
+    @pets = {fishes: [], cats: [], dogs: []}
     @@owners << self
 
   end
@@ -22,7 +22,7 @@ class Owner
     "I am a #{species}."
   end
   def pets
-    @@pets
+    @pets
   end
   def buy_fish(buy)
     fish = Fish.new(buy)
