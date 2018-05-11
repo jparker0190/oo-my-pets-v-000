@@ -25,6 +25,6 @@ class Owner
     @@pets
   end
   def buy_fish(buy)
-    
+
   end
 end
