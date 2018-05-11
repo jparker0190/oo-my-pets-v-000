@@ -47,9 +47,9 @@ class Owner
   end
   def sell_pets
     pets.each do |type, pets|
-    pets.map {|all| all.mood = "nervous"}
-  end
-  pets.clear
+      pets.map {|pet| pet.mood = "nervous"}
+    end
+    pets.clear
   end
   def list_pets
     "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
