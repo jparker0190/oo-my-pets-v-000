@@ -17,4 +17,7 @@ class Owner
   def self.reset_all
     @@owners.clear
   end
+  def species(species)
+    species
+  end
 end
