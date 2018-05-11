@@ -8,4 +8,7 @@ class Owner
   def self.all
     @owner
   end
+  def self.count
+    self.all.count
+  end
 end
