@@ -6,7 +6,7 @@ class Owner
     @@pets = {fishes: [], cats: [], dogs: []}
   end
   def self.all
-    @owner
+    @@pets
   end
   def self.count
     self.all.count
